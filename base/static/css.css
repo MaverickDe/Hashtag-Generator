@@ -1,0 +1,246 @@
+body{
+    width: 100vw;
+    height: 100vh;
+        /* background-color: #cad7e3 */
+        background-color: #F8F9FA;
+        overflow-x: hidden;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            /* padding:0px 100px; */
+            box-sizing: border-box;
+            padding-bottom: 100px;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+}
+
+.logocon {
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: red;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.logo{
+width: 50px;
+height: 50px;
+margin-right: 7x;
+}
+.nav{
+    display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        padding: 5px;
+height: 50px;
+    width: 100%;
+background-image: linear-gradient(to right ,red ,purple);
+color: white;
+}
+
+.optionbtn{
+    width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+            align-items: center;
+            padding: 5px;
+
+}
+
+.optionbtn>button{
+    width: 40%;
+    color: rgb(215, 10, 10);
+    outline: none;
+        border-radius: 5px;
+        border: 0px;
+            height: 100%;
+        
+
+}
+.optionbtn>button:focus{
+ color: #dee2e6;
+ background-color: red;
+
+
+
+}
+form{
+    width: 100% ;
+    height: 100px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 050px;
+        flex-wrap: wrap;
+}
+.copy,.selectall{
+    color: white;
+        background-color: red;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.copy:focus,.selectall:focus{
+    color:white;
+    background-color: blue;
+}
+tbody>tr:hover{
+    background-color: grey;
+}
+.input{
+    
+    
+    background-color: #F8F9FA;
+    
+    width: 80% ;
+    height: calc(90%/2);
+    outline: none;
+   border-radius: 5px;
+    border: 1px solid rgb(128, 128, 128,0.8);
+margin: 5px;
+    min-width: 300px;
+}
+
+
+form>button{
+    color: white;
+    width: 15%;
+        height:calc(90%/2);
+        background-color: red;
+        outline: none;
+            border-radius: 5px;
+            border: 0px;
+            min-width: 100px;
+            margin: 5px;
+
+
+}
+form>button:focus{
+    color: red;
+    background-color: black;
+    
+
+
+}
+ul{
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5px;
+        height: fit-content;
+        width: 100%;
+        list-style: none;
+        flex-wrap: wrap;
+        box-shadow: -100px 10px 50px 0px #dee2e6;;
+
+}
+
+li{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    max-width: 400px;
+        /* border: 1px solid rgb(128, 128, 128, 0.8); */
+        word-wrap: break-word;
+        word-break: break-all;
+
+}
+li>h3{
+    color:red
+}
+
+.imgss{
+    width: 100%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        /* height: 100px; */
+        flex-wrap: wrap;
+        margin:50px 0px;
+        
+}
+
+
+.img1,.img2,.img3.img4{
+    margin: 5px;
+    min-width: 400px;
+    border-radius: 5px;
+
+    
+
+}
+
+.img3{
+    max-height: 500px;
+}
+.img4{
+    max-height: 300px;
+}
+
+.di_1,.di_2{
+    width: 100%;
+    /* height:  */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+        padding: 5px;
+        /* height: 100px; */
+        flex-wrap: wrap;
+        
+}
+
+.di_2{
+    margin-top:30px;
+}
+.di_1>div,
+.di_2>div
+{
+    width:60%;
+    max-width:800px;
+min-width: 200px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+       background-image: linear-gradient(to left ,red ,purple);
+        color: white;
+        height: 50px;
+        width: 100%;
+        
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+
+    display: table;
+   
+
+}
+
+tr,
+td,th {border: 1px solid black;}
+
+th{color: red;}
+
+td{
+    text-decoration: none;
+    color: black;
+}
+

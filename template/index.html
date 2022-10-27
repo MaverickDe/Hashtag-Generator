@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static%}
+    <link rel="stylesheet" href={% static "css.css"%}/>
+</head>
+<body>
+    <header>
+        <div class="logocon">
+            <img class="logo" src={% static "download (3).jfif" %}>
+            <h2>Yema</h2>
+
+        </div>
+
+    </header>
+    <div class="nav">
+        <h2>
+            Hashtag Generator
+
+
+        </h2>
+
+    </div>
+
+
+        <p style="width:100% ;max-width:1000px; margin: auto;margin-top: 10px; margin-bottom: 10px;">Likes and Followers? Reach and Impressions? Money and Fame?
+        Pimp your Activity on Instagram! Find the top hashtags that drive the target audience to your page. Fill your posts with
+        the best selection from 12+ million hashtags divided into multiple categories, trending, and high-convertible. Use
+        hashtags for Instagram, Facebook, Twitter, TikTok, and other social media.
+    </p>
+    
+<div style="width: 100%;height:50px;border-radius:7px;background-color:#f3f8fc;display: flex;color: red;
+  margin-bottom: 5px;
+    align-items: center;">
+
+    <h2>Generate ⬇️</h2>
+</div>
+<div class="optionbtn">
+    <button class="generate">Generate hashtag</button>
+    <button class="create">Create hashtag</button>
+</div>
+<form action="" method="POST">
+    <input class="input" type="text" name="val" placeholder="input"/>
+    <button class="submit">Generate</button>
+</form>
+{% if post %}
+<div style="width: 100%;"></div>
+
+{{post}}
+<button class="selectall"> select all </button>
+</div>
+{%endif%}
+<!-- <div style="width: 100%;">
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Hashtag</th>
+                <th class="hidden-sm">Posts</th>
+                <th>Views</th>
+                <th>Post Views</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><a href="/hashtag/memes/">#memes</a></td>
+                <td>937,750</td>
+                <td>6,924,857,419</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">7,385</span>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="/hashtag/funny/">#funny</a></td>
+                <td>20,677,188</td>
+                <td>195,842,962,298</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">9,471</span>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="/hashtag/meme/">#meme</a></td>
+                <td>2,500,506</td>
+                <td>30,506,458,838</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">12,200</span>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="/hashtag/lmao/">#lmao</a></td>
+                <td>948,229</td>
+                <td>4,367,310,352</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">4,606</span>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="/hashtag/dankmemes/">#dankmemes</a></td>
+                <td>221,622</td>
+                <td>1,617,737,227</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">7,300</span>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><a href="/hashtag/funnymemes/">#funnymemes</a></td>
+                <td>37,612</td>
+                <td>231,608,001</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">6,158</span>
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><a href="/hashtag/like/">#like</a></td>
+                <td>58,570,209</td>
+                <td>74,331,954,430</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">1,269</span>
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><a href="/hashtag/memesdaily/">#memesdaily</a></td>
+                <td>15,893</td>
+                <td>41,500,078</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">2,611</span>
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td><a href="/hashtag/comedy/">#comedy</a></td>
+                <td>36,888,247</td>
+                <td>282,212,778,569</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">7,650</span>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td><a href="/hashtag/follow/">#follow</a></td>
+                <td>22,680,251</td>
+                <td>30,069,236,849</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">1,326</span>
+                </td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td><a href="/hashtag/haha/">#haha</a></td>
+                <td>2,342,956</td>
+                <td>10,930,050,239</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">4,665</span>
+                </td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td><a href="/hashtag/love/">#love</a></td>
+                <td>64,730,944</td>
+                <td>184,677,101,823</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">2,853</span>
+                </td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td><a href="/hashtag/humor/">#humor</a></td>
+                <td>1,195,771</td>
+                <td>12,925,161,765</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">10,809</span>
+                </td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td><a href="/hashtag/dank/">#dank</a></td>
+                <td>189,481</td>
+                <td>1,691,643,866</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">8,928</span>
+                </td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td><a href="/hashtag/leagueoflegends/">#leagueoflegends</a></td>
+                <td>54,387</td>
+                <td>204,715,413</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">3,764</span>
+                </td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td><a href="/hashtag/fun/">#fun</a></td>
+                <td>3,747,346</td>
+                <td>63,936,086,364</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">17,062</span>
+                </td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td><a href="/hashtag/instagram/">#instagram</a></td>
+                <td>1,142,998</td>
+                <td>6,037,511,966</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">5,282</span>
+                </td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td><a href="/hashtag/laugh/">#laugh</a></td>
+                <td>613,488</td>
+                <td>4,669,106,881</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">7,611</span>
+                </td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td><a href="/hashtag/edgymemes/">#edgymemes</a></td>
+                <td>9,378</td>
+                <td>42,193,509</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">4,499</span>
+                </td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td><a href="/hashtag/funnyvideos/">#funnyvideos</a></td>
+                <td>1,976,499</td>
+                <td>17,358,332,324</td>
+                <td>
+                    <span class="u-label u-label-info g-color-white">8,782</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+</div> -->
+<div class="dash" style="width:100% ;min-height: 100px ; margin:5px;border: 1px solid red;"></div>
+<button  class="copy"> copy </button>
+
+
+<div class="imgss">
+    <img class="img1" src={% static "images (9).jpg" %}>
+    <img class="img2" src={% static "download (4).jfif" %}>
+
+</div>
+
+<ul>
+    <li>
+        🔸
+        <h3>Increase impressions</h3>
+        <p>The right hashtags increase your profile visits. Choose wisely!</p>
+    </li>
+    <li>🔸
+        <h3>The right hashtags increase your profile visits. Choose wisely!</h3>
+        <p>Attract motivated users to interact with your content.</p>
+    </li>
+    <li>🔸
+        <h3>Reach new audience</h3>
+        <p>Use different hashtags to increase posts reach and involve new users.</p>
+    </li>
+</ul>
+
+<div class="di_1">
+
+    <div>
+        <h2 style="color:red">
+
+            BENEFIT VIA THE ADVANCED SEARCH MECHANISM — BETTER THAN INSTAGRAM OPT-IN
+        </h2>
+        <h3>Make use of visualized analytics for each hashtag – graphs, actual metrics, and statistics sufficient for marketing.
+        Assume word difficulty, related hashtags, latest, and TOP posts on your search. View the content on a hashtag to
+        evaluate competitors; pick the hashtags your image is likely to reach the TOP. The must-have feature for a content
+        creator.</h3>
+    </div>
+    <img class="img3" src={% static "benefits-cloud.svg" %}>
+</div>
+<div class="di_2">
+
+    <img class="img4" src={% static "screen_1@x1.webp" %}>
+    <div>
+        <h1 style="color:red">
+
+            FIND THE BEST HASHTAGS AND GROW ENGAGEMENT RATE
+          
+        </h1>
+        <h2>Organic engagement growth from 500% – explode your account with real followers</h2>
+    </div>
+</div>
+<footer>
+    all right reserved
+
+    email: princewillasotibe@gmail.com
+</footer>
+<script>
+    
+    let tbody = document.querySelector("tbody")
+    let tr = tbody && tbody.querySelectorAll("tr") || []
+    console.log(tr)
+
+    if(tbody){
+      let a=  tbody.querySelectorAll("a")
+      Array.from(a).forEach(e=>{
+        e.href="#"
+      })
+    }
+    
+    Array.from(tr).forEach((e)=>{
+    
+     
+        
+            let checkbox = document.createElement("td")
+           checkbox.innerHTML=`
+           <input style="background-color:red" name=${ Array.from(e.children)[1].textContent} type="checkbox" checked/>
+           `
+            e.appendChild(checkbox)
+
+
+
+    })
+
+
+
+    
+
+
+    let  dash  =  document.querySelector(".dash")
+    let check = document.querySelectorAll("input[type='checkbox']")
+ let checkk =()=>{
+       console.log(check)
+       Array.from(check).forEach(e=>{
+        let v =e
+
+            let cli =()=>{
+                let text =dash.innerText.trim()
+                
+                if(e.checked){
+                    let textt = text.replaceAll(" ","")!="" && `${text}, ${v.name}` || v.name
+
+                    dash.innerText = textt
+                   
+
+                    
+
+            }else{
+
+            let  array =  text.trim().split(",")
+            console.table(array)
+         let index =   array.findIndex(e=>e.trim()==v.name)
+         if(index == -1){
+            return
+         }
+         console.log(index)
+         array.splice(index,1)
+         console.table(array)
+            dash.innerText=array.join(",")
+                
+
+            }
+
+            }
+            cli()
+        e.onchange = (e)=>{
+            cli()
+
+        }
+       })
+
+
+    
+    }
+    let selectall = document.querySelector(".selectall")
+
+    if(selectall){
+        
+        
+      selectall.onclick=()=>{
+           dash.innerText=""
+        Array.from(check).forEach(e=>{
+            e.checked=true
+            e.onchange()
+        })}
+    }
+    document.querySelector(".copy").addEventListener("click",e=>{
+      let text =  document.querySelector(".dash") .innerText
+      if(text.replaceAll(" ","")==""){
+        return
+      }
+      
+        navigator.clipboard.writeText(text.replaceAll("," ," "));
+        alert("copied!!!!")
+        
+    })
+    
+
+
+    checkk()
+
+
+    let create = document.querySelector(".create")
+    let generate = document.querySelector(".generate")
+    let submit = document.querySelector(".submit")
+
+    let gen = true
+
+    create.onclick=(e)=>{
+        submit.style.display="none"
+        gen = false
+        console.log(e)
+       
+        
+        
+
+    }
+    generate.onclick=()=>{
+        gen = true
+        submit.style.display="block"
+        dash.innerText=""
+         Array.from(check).forEach(e => {
+           
+            e.onchange()
+        })
+        
+
+    }
+    console.log(document.querySelector(".input"))
+let timeout
+    document.querySelector(".input").oninput=(_e)=>{
+        clearTimeout(timeout)
+        let e =_e
+        let value =_e.currentTarget.value
+        timeout = setTimeout(()=>{
+            
+            if(!gen){
+                console.log(e.currentTarget)
+                let arr = value.trim() !="" && value.split(" ")
+               ||[]
+                arr = arr.map(e=>`#${e.trim()}`)
+                console.table(arr)
+    
+                dash.innerText = arr.join(",")
+                
+            }
+        },500)
+    }
+    
+</script>
+    
+</body>
+</html>
